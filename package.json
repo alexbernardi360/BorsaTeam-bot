@@ -1,0 +1,38 @@
+{
+  "name": "borsateam-bot",
+  "version": "0.0.1",
+  "description": "Borsa Team official Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --trace-warnings .",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint-fix": "./node_modules/.bin/eslint . --fix"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbernardi360/BorsaTeam-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "borsateam"
+  ],
+  "author": "Alesandro Bernardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexbernardi360/BorsaTeam-bot/issues"
+  },
+  "homepage": "https://github.com/alexbernardi360/BorsaTeam-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}

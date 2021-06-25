@@ -1,0 +1,4 @@
+{
+  "ignoreRoot": ["*.test.js", "*.spec.js", ".git", "node_modules"],
+  "exec": "npm run lint && npm run start"
+}
